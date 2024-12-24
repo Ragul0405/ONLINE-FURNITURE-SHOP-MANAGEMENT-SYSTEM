@@ -1,0 +1,50 @@
+cls -- code to cleare the terminal
+
+to change the port to any other port use coment as puthon manage.py runserver 8001
+
+tutor joes project 
+
+to install----
+	
+	step 1: python --version
+
+	step 2: pip install pipenv
+
+	step 3: pipenv shell --- location of env -- C:\Users\sanka\.virtualenvs\TJ-LMJbIwcL       
+
+	step 4: pip install Django
+
+	step 5: django-admin  --- all comment 
+
+	step 6: django-admin startproject <project_name>
+
+	step 7: go to view --> command palette.. --> select python
+intrepeted and select the env file location in step 3
+
+	step 8: cd <project_name>  --- python manage.py runserver
+	
+	---pip install mysqlclient		
+
+	step 9:	setting.py --> database --> engin : backend.mysql
+
+	and add and create a database
+
+	---its must add in the bellow of the engin setting.py --> database
+
+	'NAME' : 'django_ragul'
+	'HOST' : 'localhost'
+	'USER' : 'root'
+	'PASSWORD' : 'root'
+	'PORT' : '3306' 
+
+	step 10 : python manage.py startapp <appname>
+
+	step 11 : add <appname> in the setting --> installed app
+
+	step 12: create a file in app folder as viws.py and create a function as --- def home(request):  --> return render(request,"path of the html file")
+
+	step 13: in the urls in from Django.urls import path,include add include and urlpatterns =[ add path( '' ,include('shop.urls')),]
+
+	step 14: and write htmls code in the templeates
+
+	
